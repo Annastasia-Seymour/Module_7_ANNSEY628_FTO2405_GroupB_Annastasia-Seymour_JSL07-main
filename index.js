@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const closeModal = document.querySelector('.close');
   
     // Hide the modal initially
-    modal.style.display = 'none';
+    //modal.style.display = 'none';
   
     cardForm.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <p>has almost completed the</p>
       <h4>${courseName} Course</h4>
      <p>with legendary perseverance and world-class bad-assery for never giving up🏆</p>
-    <img src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="logo" style="margin-top: 20px;">
+    <img src="logo.png" alt="logo" style="margin-top: 20px; width: 20rem;">
     <p>${personalMessage}</p>
     `;
     
@@ -40,9 +40,9 @@ document.addEventListener('DOMContentLoaded', function () {
       modal.style.display = 'block';
   
       // Clear the form inputs
-      studentNameInput.value = '';
+      /*studentNameInput.value = '';
       personalMessageInput.value = '';
-      if(courseNameInput) courseNameInput.value = '';
+      if(courseNameInput) courseNameInput.value = '';*/
     });
   
     //  🚨 Close the modal when the close button is clicked
