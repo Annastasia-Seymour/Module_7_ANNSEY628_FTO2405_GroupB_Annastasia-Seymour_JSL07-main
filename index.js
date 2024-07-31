@@ -26,8 +26,14 @@ document.addEventListener('DOMContentLoaded', function () {
   
       // 🚨 Generate certificate content dynamically
       certificateContent.innerHTML = `
-      <h1>Certificate of Ach </h1>
+      <h2>Certificate of Achievement </h2>
+      <p>This is to certify that</p>
       <h3>${studentName}</h3>
+      <p>has almost completed the</p>
+      <h4>${courseName} Course</h4>
+     <p>with legendary perseverance and world-class bad-assery for never giving up🏆</p>
+    <img src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="logo" style="margin-top: 20px;">
+    <p>${personalMessage}</p>
     `;
     
       //  Display the modal
